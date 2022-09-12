@@ -1,0 +1,33 @@
+body {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+#header {
+  background-color: black;
+  color: antiquewhite;
+}
+#div-id-buy-now {
+  background-color: pink;
+  align-items: center;
+}
+#div-id-selector {
+  background-color: blueviolet;
+}
+#div-id-banker {
+  background-color: aquamarine;
+}
+#div-id-work {
+  align-items: center;
+  justify-content: center;
+  background-color: lavender;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: DodgerBlue;
+  }
+  
