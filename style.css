@@ -1,33 +1,65 @@
-body {
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    background-color: #F1F1F1;
-    text-align: center;
-}
-#header {
+.header {
   background-color: black;
   color: antiquewhite;
-}
-#div-id-buy-now {
-  background-color: pink;
-  align-items: center;
-}
-#div-id-selector {
-  background-color: blueviolet;
-}
-#div-id-banker {
-  background-color: aquamarine;
-}
-#div-id-work {
-  align-items: center;
-  justify-content: center;
-  background-color: lavender;
+  text-align: center;
 }
 
+.div-id-buy-now {
+  background-color: #d3d3d3;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 250px;
+  border-radius: 5%;
+}
+
+button {
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#loan-button {
+    background-color: #00a550;
+}
+
+#bank-button {
+    background-color:#ffe135;
+}
+
+#work-button {
+    background-color:#1f75fe;
+}
+
+#buy-button {
+    background-color: #00b9fb;
+}
+
+#p-element{
+    display: flex;
+    justify-content: space-evenly;
+}
 .flex-container {
     display: flex;
     justify-content: space-around;
-    background-color: DodgerBlue;
+    background-color: white;
+}
+
+.flex-container > div {
+    background-color: #d3d3d3;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    border-radius: 5%;
   }
   

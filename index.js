@@ -4,7 +4,7 @@ const priceElement = document.getElementById("price");
 const descriptionElement = document.getElementById("description");
 const specsElement = document.getElementById("specs");
 const imgElement = document.getElementById("img")
-const buttonElement = document.getElementById("add");
+const buttonElement = document.getElementById("buy-button");
 buttonElement.addEventListener("click", function() {
     console.log("click!!")
 })
