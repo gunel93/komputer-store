@@ -157,18 +157,7 @@ fetch(baseURL + "computers")
     titleElement.innerHTML = selectedComputer.title;
   }
 
-
-  const buy = () => {
-    if (loanBalance >= currentComputer.price) {
-      alert("Choose your computer ")
-      loanBalance -= currentComputer.price
-      balanceElement.innerText = formatNumberToNOK(loanBalance)
-    } else {
-      alert("You do not have the sufficent funds to purchase this laptop")
-    }
-  }
-  
-  const formatNumberToNOK = (number) => {
+const formatNumberToNOK = (number) => {
     let NOK = Intl.NumberFormat("no-NO", {
       style: "currency",
       currency: "NOK",
@@ -182,5 +171,5 @@ fetch(baseURL + "computers")
   repayBtn.addEventListener("click", repay)
   workbtn.addEventListener("click", work)
   bankbtn.addEventListener("click", transferToBank)
-  buybtn.addEventListener("click", buy)
+
 
