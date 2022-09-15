@@ -4,11 +4,11 @@
   text-align: center;
 }
 
-.div-id-buy-now {
+#div-id-buy-now {
   background-color: #f2f3f4;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content:space-evenly;
   line-height: 250px;
   border-radius: 5%;
 }
@@ -19,12 +19,10 @@ button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    cursor: pointer;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
     border-radius: 10px;
-
 }
 
 #loan-button {
@@ -47,6 +45,11 @@ button {
     display: flex;
     justify-content: space-evenly;
 }
+
+#h1-element{
+    display: flex;
+    justify-content: space-evenly;
+}
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -61,5 +64,9 @@ button {
     line-height: 30px;
     font-size: 15px;
     border-radius: 5%;
-  }
-  
+}
+
+
+
+
+
